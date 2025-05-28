@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media (min-width: 1390px) {
+  .screen1390\:max-w-screen-xl {
+      max-width: 1280px;
+  }
+}
+@media (min-width: 1440px) {
+  .screen1440\:px-6 {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+  }
+}
+.logo-home :hover{
+cursor: pointer;
+}
+html, body, #root {
+  height: 100%;
+}
+.home{
+  min-height: 70vh;
+}
