@@ -257,7 +257,7 @@ export default function BookingManagementPage() {
           key={form.id || "new"}
           className="fixed inset-0 z-50 bg-black bg-opacity-30 flex justify-center items-center"
         >
-          <div className="bg-white p-6 rounded shadow-lg w-full max-w-lg">
+          <div className="bg-white p-6 rounded shadow-lg w-full max-w-lg overflow-y-auto max-h-[90vh]">
             <h2 className="text-xl font-bold mb-4">
               {form.id ? "Cập nhật đặt phòng" : "Thêm đặt phòng"}
             </h2>
