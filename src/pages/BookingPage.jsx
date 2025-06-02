@@ -63,8 +63,8 @@ export default function BookingPage() {
   });
   const navigate = useNavigate();
   // Bank details from environment variables (would normally be loaded from .env)
-  const BANK_NAME = import.meta.env.BANK_NAME || "Vietcombank";
-  const BANK_ACCOUNT = import.meta.env.BANK_ACCOUNT || "1038697915";
+  const BANK_NAME = import.meta.env.BANK_NAME || "VietinBank";
+  const BANK_ACCOUNT = import.meta.env.BANK_ACCOUNT || "107872211762";
 
   const [form, setForm] = useState({
     name: "",
