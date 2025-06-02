@@ -395,6 +395,7 @@ export default function BookingPage() {
                         {images.length > 1 && (
                           <>
                             <button
+                              type="button"
                               onClick={(e) => {
                                 e.stopPropagation();
                                 showPrevImage();
@@ -406,6 +407,7 @@ export default function BookingPage() {
                               &#10094;
                             </button>
                             <button
+                              type="button"
                               onClick={(e) => {
                                 e.stopPropagation();
                                 showNextImage();
@@ -428,6 +430,7 @@ export default function BookingPage() {
                         onClick={closeLightbox}
                       >
                         <button
+                          type="button"
                           onClick={(e) => {
                             e.stopPropagation();
                             showPrevImage();
@@ -446,6 +449,7 @@ export default function BookingPage() {
                         />
 
                         <button
+                          type="button"
                           onClick={(e) => {
                             e.stopPropagation();
                             showNextImage();
@@ -457,6 +461,7 @@ export default function BookingPage() {
                         </button>
 
                         <button
+                          type="button"
                           onClick={closeLightbox}
                           className="absolute top-4 right-4 text-white text-3xl font-bold"
                           aria-label="Close lightbox"
